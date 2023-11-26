@@ -1,0 +1,54 @@
+/* (A) LOADING SPINNER */
+#spinner {
+    /* (A1) COVER FULL SCREEN */
+    position:fixed;
+    top: 0; left: 0; z-index: 9999;
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.2s;
+   
+    /* (A2) CENTER SPINNER */
+    display: flex;
+    align-items: center; justify-content: center;
+
+  }
+   
+ 
+/* Styling for the checkbox and label */
+.checkBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkBox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.checkBox label {
+  font-size: 16px;
+}
+
+/* Styling for the input field */
+.inputField {
+  margin-bottom: 20px;
+}
+
+.inputField input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inputField input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submitButton {
+  display: none;
+}
+
