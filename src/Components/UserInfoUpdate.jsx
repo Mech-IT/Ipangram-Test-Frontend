@@ -32,7 +32,7 @@ const UserInfoUpdate = () => {
 
 
         // Make a POST request using Axios
-        axios.post(apiUrl, { _id: updateData._id, ...formData }, {
+        axios.post(apiUrl, {...formData }, {
             headers: {
                 'Content-Type': 'application/json',
                 'auth-token': authToken
